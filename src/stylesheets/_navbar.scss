@@ -15,3 +15,14 @@
     }
   }
 }
+
+@include media-breakpoint-up(sm) {
+  .navbar-brand {
+    margin-left: 2rem;
+  }
+}
+@include media-breakpoint-up(md) {
+  .navbar-brand {
+    margin-left: 10%;
+  }
+}
