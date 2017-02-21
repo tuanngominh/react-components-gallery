@@ -7,6 +7,7 @@ import '../App.css'
 import Homepage from '../components/Homepage'
 import Navbar from '../components/Homepage/Navbar'
 import Hero from '../components/Homepage/Hero'
+import Intro1 from '../components/Homepage/Intro1'
 
 storiesOf('Homepage', module)
   .add('Navbar', () => {
@@ -19,6 +20,11 @@ storiesOf('Homepage', module)
       <Hero />
     )
   })
+  .add('Intro1', () => {
+    return (
+      <Intro1 />
+    )
+  })  
   .add('Full homepage', () => {
     return (
       <Homepage />

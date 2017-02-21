@@ -47,3 +47,16 @@ section.hero {
   }
 
 }
+
+.intro1 {
+  max-width: 900px;
+  margin-top: 12rem;
+  .heading {
+    padding-bottom: 2rem;
+  }
+  .text-block-1 {
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px #e1e0e1 solid;
+  }
+}

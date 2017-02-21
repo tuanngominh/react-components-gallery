@@ -13,7 +13,7 @@ const Hero = () => (
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
-            <img src={image} alt="hero image"/>
+            <img src={image} alt="hero"/>
           </div>
         </div>
       </div>
