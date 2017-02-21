@@ -1,4 +1,4 @@
-A job portal on react, [demo](https://tuanngominh.github.io/ureka-job-portal/)
+A job portal on react. Take a look at [demo](https://ureka-job-portal.firebaseapp.com/) and [storybook](https://tuanngominh.github.io/ureka-job-portal/).
 
 # Setup steps
 ```sh
@@ -30,4 +30,6 @@ npm run storybook
 
 # deploy storybook to github pages
 npm run deploy-storybook
+
+firebase deploy --token "1/WGP1hd7k16bC3rDhfV_MjBDhCSIqbT9ePCZc7PLdM-E" --project ureka-job-portal
 ```

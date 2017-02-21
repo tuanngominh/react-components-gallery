@@ -1,5 +1,6 @@
 {
   "name": "ureka-job-portal",
+  "homepage": "https://ureka-job-portal.firebaseapp.com",
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
