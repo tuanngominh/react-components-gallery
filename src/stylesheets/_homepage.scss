@@ -1,0 +1,49 @@
+//hero section
+section.hero {
+  padding-top: 2rem;
+  background-color: #f05238;
+  h4 {
+    color: white
+  }
+  .call-of-action {
+    padding-top: 3.5rem;
+    padding-bottom: 3rem;
+
+    .separator {
+      width: 2rem;
+      height: 1rem;
+      display: inline-block;
+    }
+
+    .btn-outline-secondary {
+      color: white;
+      &:hover {
+        color: white;
+      }
+    }
+    .btn {
+      min-width: 9rem;
+      line-height: 1.5;
+      font-size: 0.9rem;
+    }
+  }
+  
+  //hero image
+  img {
+    margin-bottom: -10%;
+  }
+  @include media-breakpoint-down(lg) {
+    img {
+      width: 100%;
+    }
+  }
+
+  //small devices
+  @include media-breakpoint-down(xs) {
+    .btn {
+      display: block;
+      width: 100%;
+    }
+  }
+
+}
