@@ -13,6 +13,11 @@ getstorybook
 
 # deploy storybook to github page
 npm i --save-dev @kadira/storybook-deployer
+
+# Enable sass, https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-a-css-preprocessor-sass-less-etc
+npm install node-sass --save-dev
+
+
 ```
 
 Development env
