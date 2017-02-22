@@ -9,8 +9,6 @@ import localizer from 'react-big-calendar/lib/localizers/globalize'
 import globalize from 'globalize'
 import 'react-big-calendar/lib/css/react-big-calendar.css'
 
-import '../stylesheets/big-calendar.css'
-
 localizer(globalize)
 
 let date0 = new Date()
@@ -27,7 +25,7 @@ const events = [
 ]
 
 storiesOf('Calendar', module)
-  .add(' ', () => {
+  .add('Big Calendar', () => {
     return (
       <BigCalendar events={events} />
     )
