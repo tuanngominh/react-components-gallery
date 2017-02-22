@@ -1,4 +1,4 @@
-A job portal on react. Take a look at [demo](https://ureka-job-portal.firebaseapp.com/) and [storybook](https://tuanngominh.github.io/ureka-job-portal/).
+A storybook of react components for job portal project. Take a look at [storybook](https://tuanngominh.github.io/ureka-job-portal/) and [homepage demo](https://ureka-job-portal.firebaseapp.com/).
 
 # Setup steps
 ```sh
