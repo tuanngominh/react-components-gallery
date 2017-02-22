@@ -49,7 +49,7 @@ class Dnd extends Component {
       <DragAndDropCalendar
         selectable
         min={moment('8:00am', 'h:mma').toDate()}
-        max={moment('2:00pm', 'h:mma').toDate()}
+        max={moment('6:00pm', 'h:mma').toDate()}
         events={this.state.events}
         defaultView='week'
         views={['week']}
