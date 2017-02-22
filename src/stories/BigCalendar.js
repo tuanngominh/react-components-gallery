@@ -27,6 +27,19 @@ const events = [
 storiesOf('Calendar', module)
   .add('Big Calendar', () => {
     return (
-      <BigCalendar events={events} />
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col">
+            <h1>react-big-calendar</h1>
+            <a href="https://github.com/intljusticemission/react-big-calendar">github</a>
+            <br/><br/>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <BigCalendar events={events} />
+          </div>
+        </div>      
+      </div>
     )
   })
