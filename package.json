@@ -6,6 +6,8 @@
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",
     "@kadira/storybook-deployer": "^1.2.0",
+    "less": "^2.7.2",
+    "less-plugin-autoprefix": "^1.5.1",
     "node-sass": "^4.5.0",
     "npm-run-all": "^4.0.1",
     "react-scripts": "0.9.0"
@@ -24,6 +26,7 @@
     "reactstrap": "^4.2.0"
   },
   "scripts": {
+    "build-big-calendar-css": "lessc --autoprefix=\"ie >= 10, last 2 versions\" src/components/BigCalendar/styles.less ./node_modules/react-big-calendar/lib/css/react-big-calendar.css",
     "build-css": "node-sass src/ -o src/",
     "watch-css": "npm run build-css && node-sass src/ -o src/ --watch",
     "start-js": "react-scripts start",
