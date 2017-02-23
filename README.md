@@ -1,11 +1,11 @@
-A storybook of react components for job portal project. Take a look at [storybook](https://tuanngominh.github.io/ureka-job-portal/) and [homepage demo](https://ureka-job-portal.firebaseapp.com/).
+A [storybook](https://tuanngominh.github.io/react-components-gallery/) of react components. Help to boostrap new projects quickly.
 
 # Setup steps
 ```sh
 # generate initial version using create-react-app
 npm install -g create-react-app
-create-react-app ureka-job-portal
-cd ureka-job-portal
+create-react-app new-react-project-name
+cd new-react-project-name
 
 # setup storybook
 npm i -g getstorybook
@@ -31,5 +31,5 @@ npm run storybook
 # deploy storybook to github pages
 npm run deploy-storybook
 
-firebase deploy --token "1/WGP1hd7k16bC3rDhfV_MjBDhCSIqbT9ePCZc7PLdM-E" --project ureka-job-portal
+firebase deploy --token "firebase-token" --project new-react-project-name
 ```
