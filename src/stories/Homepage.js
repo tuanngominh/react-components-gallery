@@ -9,7 +9,7 @@ import Navbar from '../components/Homepage/Navbar'
 import Hero from '../components/Homepage/Hero'
 import Intro1 from '../components/Homepage/Intro1'
 
-storiesOf('Homepage', module)
+storiesOf('Boostrap4', module)
   .add('Navbar', () => {
     return (
       <Navbar />
