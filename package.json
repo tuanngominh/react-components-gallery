@@ -25,6 +25,7 @@
     "react-dnd": "^2.2.3",
     "react-dnd-html5-backend": "^2.2.3",
     "react-dom": "^15.4.2",
+    "react-dropzone": "^3.10.0",
     "reactstrap": "^4.2.0"
   },
   "scripts": {
